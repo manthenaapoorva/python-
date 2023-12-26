@@ -1,0 +1,9 @@
+import math
+
+def square_root(num):
+    return math.sqrt(num)
+
+# Example usage:
+number = 25
+sqrt_value = square_root(number)
+print(f"The square root of {number} is {sqrt_value}")
