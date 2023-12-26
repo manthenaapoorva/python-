@@ -1,0 +1,7 @@
+def sum_of_digits(num):
+    return sum(int(digit) for digit in str(num))
+
+# Example usage:
+number = 12345
+digit_sum = sum_of_digits(number)
+print(f"The sum of digits in {number} is {digit_sum}")
